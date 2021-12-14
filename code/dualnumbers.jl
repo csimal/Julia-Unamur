@@ -20,3 +20,23 @@ f(x) = x^2
 f(1)
 f(1.0)
 f(Dual(1,1))
+
+"""
+Compute the square root of x using the Babylonian algorithm
+"""
+function babylonian(x; nmax = 10)
+    t = (1+x)/2
+    for i in 2:nmax
+        t = (t + x/t)/2
+    end
+    return t
+end
+
+babylonian(π), √π
+babylonian(2), √2
+
+# What happens when we pass a Dual number to babylonian?
+x = Dual(2,1)
+
+babylonian(x)
+√2, 0.5/√2
