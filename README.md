@@ -114,6 +114,8 @@ The [JuliaPhysics](https://github.com/JuliaPhysics) ecosystem should be your fir
 * [Yao](https://github.com/QuantumBFS/Yao.jl) Quantum Computing
 * [QuantumLab](https://github.com/vonDonnerstein/QuantumLab.jl) and [Quante](https://github.com/jarvist/Quante.jl) Quantum Chemistry. Neither has been updated in a while, and I don't know enough about QC to assess them. Your mileage may vary.
 
+See also [Unitful](https://github.com/PainterQubits/Unitful.jl) to handle quantities with physical units.
+
 ### Astronomy and Aerospace
 * [JuliaAstro](https://juliaastro.github.io/dev/index.html) Computational Astronomy ecosystem
 * [SatelliteToolbox](https://github.com/JuliaSpace/SatelliteToolbox.jl) Satellite simulations. Developed and used by the Brazilian Space Agency to plan missions.
