@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.17.2
+# v0.17.3
 
 using Markdown
 using InteractiveUtils
@@ -12,20 +12,12 @@ begin
 	using Plots
 end
 
-# ╔═╡ e2c37d04-4d35-4fda-93b5-76a2612430f7
-begin
-	using PyPlot: xkcd
-	pyplot()
-	xkcd()
-	plot(rand(15), label="Arr", title="Pyplot (with xkcd)", fontfamily="The Urban Way")
-end
-
 # ╔═╡ f24068a4-992a-434c-b9af-633373f5e67f
 md"# Plots.jl Backends"
 
 # ╔═╡ f5826703-a88f-4b2b-b3f6-ff5242894251
 md"""
-**NB** You need to install the different backends (PlotlyJS, PyPlot, PGFPlotsX, Gaston) separately
+> **NB** You need to install the different backends (PlotlyJS, PyPlot, PGFPlotsX, Gaston) separately
 """
 
 # ╔═╡ 0571dd1a-4488-4a2f-932a-155a2e48be92
@@ -58,9 +50,6 @@ begin
 	plot(rand(15), label="Qux", title="Gaston (Gnuplot)")
 end
 
-# ╔═╡ 2c3e18e7-fd5d-4d70-8289-9827fa837696
-md"**Bonus** Steal matplotlib's xkcd theme like a boss"
-
 # ╔═╡ Cell order:
 # ╟─f24068a4-992a-434c-b9af-633373f5e67f
 # ╟─f5826703-a88f-4b2b-b3f6-ff5242894251
@@ -71,5 +60,3 @@ md"**Bonus** Steal matplotlib's xkcd theme like a boss"
 # ╠═b27088ee-7bab-4f39-8de6-d2b1fe50226d
 # ╠═cd2c9a51-06bb-46f2-ab3f-02abab022a8a
 # ╠═a5589144-1762-4f63-8020-8ea90965630e
-# ╟─2c3e18e7-fd5d-4d70-8289-9827fa837696
-# ╠═e2c37d04-4d35-4fda-93b5-76a2612430f7

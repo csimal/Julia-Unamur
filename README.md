@@ -35,6 +35,7 @@ Want to know what Julia's all about? Start with these
 * [LWN - The accelerating adoption of Julia](https://lwn.net/Articles/834571/)
 * [LWN Article about how Julia 1.6 addresses the "Time to first plot" problem](https://lwn.net/Articles/856819/)
 * [Differentiable Programming with Julia by Mike Innes](https://www.youtube.com/watch?v=LjWzgTPFu14) A short talk on [Differentiable Programming](https://fluxml.ai/blog/2019/02/07/what-is-differentiable-programming.html), which has been hailed by some famous ML researchers (e.g. Yan LeCun) as the next revolution after Deep Learning.
+* [What packages are state-of-the-art OR attract you to Julia, and make you stay there?](https://discourse.julialang.org/t/what-package-s-are-state-of-the-art-or-attract-you-to-julia-and-make-you-stay-there-not-easily-replicateable-in-e-g-python-r-matlab/11294/4)
 
 ## Advanced examples/tutorials
 Once you've fallen into the Julia rabbit hole, read the following. They contain a lot of useful insight and tips.

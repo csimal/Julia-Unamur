@@ -37,6 +37,6 @@ babylonian(2), √2
 
 # What happens when we pass a Dual number to babylonian?
 x = Dual(2,1)
-
+# We automagically get the derivative!
 babylonian(x)
 √2, 0.5/√2
