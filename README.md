@@ -45,6 +45,8 @@ Once you've fallen into the Julia rabbit hole, read the following. They contain 
 * [Debugging in Julia](https://opensourc.es/blog/basics-debugging/)
 * [Composability in Julia: Implementing Deep Equilibrium Models via Neural ODEs](https://julialang.org/blog/2021/10/DEQ/) Neural ODEs and Deep Equilibrium Models are neural network architectures that are intertwined with an ODE solver. This blog post shows how trivial that is to do in Flux + DiffEq.
 * [The impact of differentiable programming: how ∂P is enabling new science in Julia](https://www.youtube.com/watch?v=rF2QAJLM730)
+* [Why Numba and Cython are not substitutes for Julia](https://www.juliabloggers.com/why-numba-and-cython-are-not-substitutes-for-julia/) A fairly technical blog post by the main author of the DifferentialEquations package on the differences between Julia and Python acceleration tools like Numba or Cython.
+* [I like Julia because it scales and is productive: Some insight from a Julia Developer](http://www.stochasticlifestyle.com/like-julia-scales-productive-insights-julia-developer/)
 
 ## Benchmarks and speedups
 One of Julia's main selling points is its speed. There a few benchmarks floating around on various domains, as well as stories of people getting some good speedups just from porting their old code to Julia. As a rule of thumb, you can expect a speedup of at least one or two orders of magnitudes when switching from Python/Matlab to Julia.
